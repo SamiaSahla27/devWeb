@@ -1,13 +1,12 @@
-import Api from '@/services/Ap'
+import Api from "@/services/Api";
 
 export default {
-    register(credentials){
-        return Api().post('register', credentials)
-    }
-    
-}
+  register(credentials) {
+    return Api().post("register", credentials);
+  },
+};
 
-// Appel la methode 
+// Appel la methode
 // AuthentificationService.register(
 //     email : 'testing@gmail.com'
 //     password: '123456'
